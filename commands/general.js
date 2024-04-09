@@ -136,7 +136,7 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-ㅤ ❁    🔰STAR-ALIVE-2🔰     
+ㅤ ❁    𝑗𝑜-𝐽𝑂     
 ╰─➤｡･:*˚:✧｡ *${tlang().title}* ｡･:*˚:✧｡
 ╰─➤*🌟Description:* A WhatsApp bot with rich features, built in NodeJs to make your WhatsApp enjoyable.
 ╰─➤*⚡️Speed:* ${latensie.toFixed(4)} ms
@@ -158,7 +158,7 @@ cmd({
                     body: `Bot-Status`,
                     thumbnail: log0,
                     mediaType: 2,
-                    mediaUrl: ``,
+                    mediaUrl: `https://www.instagram.com/cristiano?igsh=MTd6dXl6N2Nyd3Riaw==`,
                     sourceUrl: ``,
                 },
             },
@@ -189,7 +189,8 @@ cmd({
 *📡ᑭᑌᗷᒪIᑕ ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
 *🔍Տᑕᗩᑎ ᑫᖇ:* https://star-md-qr-web-xcelsama-e29e85286f3a.herokuapp.com/
 *💻ᑕᕼᗩᑎᑎᗴᒪ ᒪIᑎK:* https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
-*⚙️DᗴᑭloY YOᑌᖇ Oᗯᑎ:*-https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD`
+*⚙️DᗴᑭloY YOᑌᖇ Oᗯᑎ:*-
+https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
